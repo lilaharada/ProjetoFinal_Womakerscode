@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lila Harada">
+    <meta name="description" content="Projeto final para o curso Programação Web para Iniciantes, Turma 2, do WoMakersCode"
+    
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@10.0.4/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <title>NÁDIA AYAD</title>
+
+</head>
+
+<body>
+    <header class="header">     
+    <header id="home">
+        <nav class="navigation">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+                <li class="nav-item"><a href="#destaque" onclick="toggleMenu()">Destaque</a></li> 
+                <li class="nav-item"><a href="#inspirações" onclick="toggleMenu()">Inspirações</a></li>
+                <li class="nav-item"><a href="#galeria" onclick="toggleMenu()">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+       
+    <main>
+        <main class="main">
+            <h1>Um orgulho da Ciência brasileira: Nádia Ayad</h1>
+
+            <div class="perfil">
+                <img class="perfil__foto" src="imagens/01-Nadia-Ayad.jpg">
+            </div>
+
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <h2>Quem é Nádia Ayad</h2>
+                <div class="sobre">  
+                    <p>Nadia Mohammed Elmassalami Ayad nasceu na cidade de Rio de Janeiro em 1994, e já teve desde o berço a influência de ser cientista tendo os pais como pesquisadores, e depois do seu irmão que também começou a trilhar o caminho da pesquisa e ensino.</p>
+                    <p>Ingressou em 2011 no curso de Engenharia de Materiais no renomado Instituto Militar de Engenharia (IME, RJ). Durante sua graduação, Nádia fez vários trabalhos voluntários, estágios de pesquisa e iniciações científicas, tanto no Brasil como no exterior. Ficou um ano na Universidade de Manchester onde o grafeno foi criado, e estagiou na Imperial College London.</p>
+                    <p>Nádia representa a estatística de apenas 5,5% de mulheres negras são bolsistas do CNPq, órgão ligado ao Ministério da Ciência, Tecnologia e Inovação que tem por objetivo incentivar a pesquisa no Brasil.</p>
+                </div>
+            </div>
+        </section>
+
+         <section class="destaque" id="destaque">
+            <div class="container">
+                <h2>Destaque científico</h2>
+                <div class="destaque">
+                    <p>Em 2016 Nádia Ayad tinha 23 anos, era uma engenheira recém-formada pelo IME, e sagrou-se a vencedora de uma competição internacional promovida pela empresa sueca Sandvik que havia proposto o Global Graphene Challenge Competition, uma iniciativa na busca de soluções inovadoras e sustentáveis sobre o uso desse material.</p>
+                    <p>Competindo com pesquisadores do mundo, Nádia elevou a Ciência brasileira no patamar de grandes cientistas.</p>
+                    <p>Utilizando o grafeno, um derivado de carbono considerado um material mais forte, mais leve e mais fino conhecido na atualidade e com uma variedade de aplicações, Nadia Ayad criou um sistema de dessalinização e filtragem de água que pode possibilitar o acesso à água potável a milhões de pessoas, além de reduzir custos com energia e pressões sobre as fontes hídricas.</p>
+                        <img class="material__foto" src="imagens/10-grafeno.jpg">
+                </div>
+            </div>
+         </section>
+
+         <section class="inspirações" id="inspirações">
+            <div class="container">
+                <h2>Inspirações futuras</h2>
+                <div class="inspirações">
+                    <p>Atualmente, Nádia Ayad está fazendo Doutorado em Bioengenharia e Regeneração de Tecidos na Universidade de Califórnia, EUA, desenvolvendo estudos com biomateriais e investigando os efeitos nas células-tronco durante o desenvolvimento embrionário.</p>
+                        <img class="tecido__foto" src="imagens/11-biomaterial.jpg">
+
+                    <p>“Eu quero poder aplicar a engenharia na criação de produtos que realmente farão a diferença e ajudarão as pessoas a superar doenças que são muito difíceis de tratar atualmente.” ~Nádia Ayad~</p>
+                    <p>“O Brasil é um país cheio de mentes brilhantes, porém o que falta são oportunidades – tanto para que essas mentes descubram que podem ser cientistas quanto oportunidades para atingir esse sonho.” ~Nádia Ayad~</p>
+                </div>   
+            </div>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <h2>Galeria de fotos</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imagens/02-Nadia-Ayad.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagens/03-Nadia-Ayad.jpg">                
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagens/05-Nadia-Ayad.jpg">   
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagens/06-Nadia-Ayad.jpg">   
+                    </div> 
+                    <div class="swiper-slide">
+                        <img src="imagens/07-Nadia-Ayad.jpg">   
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagens/08-Nadia-Ayad.jpg">   
+                    </div> 
+                    <div class="swiper-slide">
+                        <img src="imagens/09-Nadia-Ayad.jpg">   
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+             </div>   
+        </section>        
+
+    </main>
+
+   
+    <footer class="footer">
+        <span class="footer__texto">
+            Desenvolvido por Lila Harada
+            <img class="icone icone--texto" src="icones/flower.svg">
+        </span>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
